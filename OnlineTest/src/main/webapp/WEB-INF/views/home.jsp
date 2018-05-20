@@ -2,7 +2,9 @@
 <div class="container">
             <div class="row" id="mainform">
 					<div class="col-2 col-lg-1 label-form nonselect"><strong>Email:</strong></div>
-					<div class="col"><input type="text" id="email" placeholder="abc@timesgroup.com" required></div>
+					<div class="col">
+						<input type="text" id="email" placeholder="abc@timesgroup.com" required>
+					</div>
 			</div>
 			<div class="row">
 				<div id="note" class="nonselect">
@@ -28,7 +30,9 @@
 <div id="maincontent">
 	<h6>Please indicate how strongly you agree or disagree with the following statements using the drop down menu</h6>
 	<br>
-	<!-- <form id="Softskills"> -->
+	<input type="hidden" name="current_user_id" value="" id="current_user_id" />
+	<form id="Softskills" method="post">
+	
 	<table id="disp_table" class="table-hover">
 	<thead class="thead-dark">
 		<th>S.No</th>
@@ -37,7 +41,7 @@
 	</thead>
 	<tbody></tbody>
 	</table>
-	<!-- </form> -->
+	</form>
 	<div id="excitearea">
 	<label for="excite"><strong>List top 3 elements that make you excited about working in BCCL:</strong></label>
 	<br>
