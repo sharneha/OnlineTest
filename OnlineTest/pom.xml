@@ -8,7 +8,7 @@
   <name>OnlineTest Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
-  		<mysql.connector.version>5.1.30</mysql.connector.version>
+  		<mysql.connector.version>8.0.16</mysql.connector.version>
 		<failOnMissingWebXml>false</failOnMissingWebXml>
 		<spring.version>5.0.0.RELEASE</spring.version>
 		<hibernate.version>5.2.11.Final</hibernate.version>
